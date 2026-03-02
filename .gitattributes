@@ -1,0 +1,185 @@
+# =====================================
+# Auto detect text files and normalize line endings to LF
+# =====================================
+* text=auto
+
+# =====================================
+# Text Files
+# =====================================
+*.java text eol=lf
+*.properties text eol=lf
+*.xml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.markdown text eol=lf
+*.txt text eol=lf
+*.gradle text eol=lf
+*.sh text eol=lf
+*.bat text eol=lf
+*.cmd text eol=lf
+*.gradle text eol=lf
+
+# =====================================
+# Shell Scripts - Line endings should be LF
+# =====================================
+*.sh text eol=lf
+*.bash text eol=lf
+
+# =====================================
+# Windows Scripts
+# =====================================
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+# =====================================
+# Documentation
+# =====================================
+*.md text eol=lf
+*.mdx text eol=lf
+*.adoc text eol=lf
+*.asciidoc text eol=lf
+README text eol=lf
+AUTHORS text eol=lf
+CONTRIBUTORS text eol=lf
+CHANGELOG text eol=lf
+CHANGELOG.md text eol=lf
+LICENSE text eol=lf
+LICENSE.md text eol=lf
+NOTICE text eol=lf
+HISTORY text eol=lf
+
+# =====================================
+# Config Files
+# =====================================
+.editorconfig text eol=lf
+.env text eol=lf
+.env.* text eol=lf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+.dockerignore text eol=lf
+.gitlab-ci.yml text eol=lf
+.github/* text eol=lf
+
+# =====================================
+# Build Files
+# =====================================
+pom.xml text eol=lf
+build.gradle text eol=lf
+settings.gradle text eol=lf
+Dockerfile text eol=lf
+docker-compose.yml text eol=lf
+docker-compose.yaml text eol=lf
+
+# =====================================
+# Binary Files - Should not be modified
+# =====================================
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.mov binary
+*.mp4 binary
+*.mp3 binary
+*.gz binary
+*.zip binary
+*.7z binary
+*.ttf binary
+*.otf binary
+*.class binary
+*.jar binary
+*.war binary
+*.ear binary
+*.db binary
+*.sqlite binary
+*.sqlite3 binary
+*.h2.db binary
+
+# =====================================
+# Archive Files
+# =====================================
+*.zip binary
+*.7z binary
+*.gz binary
+*.bzip2 binary
+*.xz binary
+*.rar binary
+*.tar binary
+*.tgz binary
+
+# =====================================
+# IDE Files - Should be normalized
+# =====================================
+.idea/* text eol=lf
+.vscode/* text eol=lf
+*.iml text eol=lf
+.classpath text eol=lf
+.project text eol=lf
+.settings/* text eol=lf
+
+# =====================================
+# Maven/Gradle - Normalize line endings
+# =====================================
+.mvn/wrapper/maven-wrapper.properties text eol=lf
+gradlew text eol=lf
+gradlew.bat text eol=crlf
+mvnw text eol=lf
+mvnw.cmd text eol=crlf
+
+# =====================================
+# Git - Normalize line endings
+# =====================================
+.gitmodules text eol=lf
+.gitconfig text eol=lf
+
+# =====================================
+# Diff Settings
+# =====================================
+*.diff text eol=lf
+*.patch text eol=lf
+
+# =====================================
+# Vagrant
+# =====================================
+Vagrantfile text eol=lf
+
+# =====================================
+# Node (if used)
+# =====================================
+package.json text eol=lf
+package-lock.json text eol=lf
+.npmrc text eol=lf
+.nvmrc text eol=lf
+yarn.lock text eol=lf
+
+# =====================================
+# Python (if used)
+# =====================================
+*.py text eol=lf
+requirements.txt text eol=lf
+setup.py text eol=lf
+setup.cfg text eol=lf
+pyproject.toml text eol=lf
+Pipfile text eol=lf
+
+# =====================================
+# SQL Files
+# =====================================
+*.sql text eol=lf
+*.plsql text eol=lf
+
+# =====================================
+# HTML/CSS/JS (if frontend used)
+# =====================================
+*.html text eol=lf
+*.css text eol=lf
+*.scss text eol=lf
+*.less text eol=lf
+*.js text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.jsx text eol=lf
+

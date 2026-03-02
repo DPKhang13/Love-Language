@@ -45,18 +45,16 @@ Thumbs.db
 *.log
 *.log.*
 
-### Compiled class files ###
-*.class
-
-### IDE ###
-*.iml
-*.iws
-*.ipr
-
-### Environment variables ###
+# =====================================
+# Environment Variables - NEVER COMMIT
+# =====================================
 .env
 .env.local
 .env.*.local
+.env.prod
+.env.staging
+.env.development
+.env.test
 
 ### Database ###
 *.db
